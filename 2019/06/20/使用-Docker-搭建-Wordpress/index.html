@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="eslint,React,">
+  <meta name="keywords" content="docker,">
 
 
 
@@ -79,25 +79,18 @@
 
 
 
-<meta name="description" content="因为在每一个项目中都会使用到eslint的配置，所以这里我选择全局安装。  1. 全局安装eslint1234npm install -g eslint // 使用 airbnb 规则和 react 还需要的其他依赖npm install -g eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-">
-<meta name="keywords" content="eslint,React">
+<meta name="description" content="单节点搭建 拉取 wordpress 镜像1docker pull wordpress:latest">
+<meta name="keywords" content="docker">
 <meta property="og:type" content="article">
-<meta property="og:title" content="在 React 项目中配置 airbnb 规则的 eslint">
-<meta property="og:url" content="http://yoursite.com/2019/02/22/在-React-项目中配置-airbnb-规则的-eslint/index.html">
+<meta property="og:title" content="基于 Docker 搭建 Wordpress">
+<meta property="og:url" content="http://yoursite.com/2019/06/20/使用-Docker-搭建-Wordpress/index.html">
 <meta property="og:site_name" content="Ginger&#39;s Blog">
-<meta property="og:description" content="因为在每一个项目中都会使用到eslint的配置，所以这里我选择全局安装。  1. 全局安装eslint1234npm install -g eslint // 使用 airbnb 规则和 react 还需要的其他依赖npm install -g eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-">
+<meta property="og:description" content="单节点搭建 拉取 wordpress 镜像1docker pull wordpress:latest">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://lg-li73sb64-1256806993.cos.ap-shanghai.myqcloud.com/1550832170504.jpg">
-<meta property="og:image" content="https://lg-li73sb64-1256806993.cos.ap-shanghai.myqcloud.com/1550832183319.jpg">
-<meta property="og:image" content="https://lg-li73sb64-1256806993.cos.ap-shanghai.myqcloud.com/1550832192212.jpg">
-<meta property="og:image" content="https://lg-li73sb64-1256806993.cos.ap-shanghai.myqcloud.com/1550832202167.jpg">
-<meta property="og:image" content="https://lg-li73sb64-1256806993.cos.ap-shanghai.myqcloud.com/1550832210717.jpg">
-<meta property="og:image" content="https://lg-li73sb64-1256806993.cos.ap-shanghai.myqcloud.com/1550832219425.jpg">
-<meta property="og:updated_time" content="2019-02-22T10:52:47.129Z">
+<meta property="og:updated_time" content="2019-06-20T10:38:28.141Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="在 React 项目中配置 airbnb 规则的 eslint">
-<meta name="twitter:description" content="因为在每一个项目中都会使用到eslint的配置，所以这里我选择全局安装。  1. 全局安装eslint1234npm install -g eslint // 使用 airbnb 规则和 react 还需要的其他依赖npm install -g eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-">
-<meta name="twitter:image" content="https://lg-li73sb64-1256806993.cos.ap-shanghai.myqcloud.com/1550832170504.jpg">
+<meta name="twitter:title" content="基于 Docker 搭建 Wordpress">
+<meta name="twitter:description" content="单节点搭建 拉取 wordpress 镜像1docker pull wordpress:latest">
 
 
 
@@ -127,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/02/22/在-React-项目中配置-airbnb-规则的-eslint/">
+  <link rel="canonical" href="http://yoursite.com/2019/06/20/使用-Docker-搭建-Wordpress/">
 
 
 
 
 
-  <title>在 React 项目中配置 airbnb 规则的 eslint | Ginger's Blog</title>
+  <title>基于 Docker 搭建 Wordpress | Ginger's Blog</title>
   
 
 
@@ -250,7 +243,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/22/在-React-项目中配置-airbnb-规则的-eslint/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/20/使用-Docker-搭建-Wordpress/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Ginger">
@@ -267,7 +260,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">在 React 项目中配置 airbnb 规则的 eslint</h1>
+          <h1 class="post-title" itemprop="name headline">基于 Docker 搭建 Wordpress</h1>
         
 
         <div class="post-meta">
@@ -279,8 +272,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-02-22T18:38:47+08:00">
-                2019-02-22
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-20T18:36:28+08:00">
+                2019-06-20
               </time>
             
 
@@ -298,8 +291,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2019/02/22/在-React-项目中配置-airbnb-规则的-eslint/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/02/22/在-React-项目中配置-airbnb-规则的-eslint/" itemprop="commentCount"></span>
+                <a href="/2019/06/20/使用-Docker-搭建-Wordpress/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/06/20/使用-Docker-搭建-Wordpress/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -307,7 +300,7 @@
 
           
           
-             <span id="/2019/02/22/在-React-项目中配置-airbnb-规则的-eslint/" class="leancloud_visitors" data-flag-title="在 React 项目中配置 airbnb 规则的 eslint">
+             <span id="/2019/06/20/使用-Docker-搭建-Wordpress/" class="leancloud_visitors" data-flag-title="基于 Docker 搭建 Wordpress">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -338,50 +331,34 @@
       
 
       
-        <blockquote>
-<p>因为在每一个项目中都会使用到eslint的配置，所以这里我选择全局安装。</p>
-</blockquote>
-<h4 id="1-全局安装eslint"><a href="#1-全局安装eslint" class="headerlink" title="1. 全局安装eslint"></a>1. 全局安装eslint</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install -g eslint </span><br><span class="line"></span><br><span class="line">// 使用 airbnb 规则和 react 还需要的其他依赖</span><br><span class="line">npm install -g eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y</span><br></pre></td></tr></table></figure>
+        <h4 id="单节点搭建"><a href="#单节点搭建" class="headerlink" title="单节点搭建"></a>单节点搭建</h4><ol>
+<li>拉取 wordpress 镜像<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull wordpress:latest</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
 <a id="more"></a>
-<h4 id="2-创建eslint配置文件"><a href="#2-创建eslint配置文件" class="headerlink" title="2. 创建eslint配置文件"></a>2. 创建eslint配置文件</h4><ol>
-<li><p>在项目路径下执行命令 <code>eslint --init</code>。根据提示选择你的需要的设置。</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">? How would you like to use ESLint?</span><br><span class="line">To check syntax and find problems</span><br><span class="line"></span><br><span class="line">? What type of modules does your project use?</span><br><span class="line">JavaScript modules (import/export)</span><br><span class="line"></span><br><span class="line">? Which framework does your project use?</span><br><span class="line">React</span><br><span class="line"></span><br><span class="line">? Where does your code run? (Press &lt;space&gt; to select, &lt;a&gt; to toggle all, &lt;i&gt; to invert selection)</span><br><span class="line">Browser</span><br><span class="line"></span><br><span class="line">? What format do you want your config file to be in? </span><br><span class="line">JSON</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>将配置文件中的 <code>extends</code> 改为 <code>airbnb</code>。如下：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">"extends": "airbnb",</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>将配置文件中的 <code>parser</code> 改为 <code>babel-eslint</code>。如下：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">"parser": "babel-eslint",</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>运行 wordpress 镜像<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run –name wordpress -e WORDPRESS_DB_HOST=192.168.1.153 -e WORDPRESS_DB_USER=root -e WORDPRESS_DB_PASSWORD=123456 -p81:80 -d wordpress</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<h4 id="3-WebStorm-配置"><a href="#3-WebStorm-配置" class="headerlink" title="3. WebStorm 配置"></a>3. WebStorm 配置</h4><ol>
-<li><p>进入设置页面：<code>Preferences -&gt; Languages &amp; Frameworks -&gt; JavaScript -&gt; Code Quality Tools -&gt; ESLint</code></p>
+<p>替换数据库表前缀：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run –name new_wordpress -e WORDPRESS_DB_HOST=192.168.2.197 -e WORDPRESS_DB_USER=root -e WORDPRESS_DB_PASSWORD=123456 -p81:80 -d wordpress -e WORDPRESS_TABLE_PREFIX=new</span><br></pre></td></tr></table></figure></p>
+<h4 id="Wordpress-Nginx"><a href="#Wordpress-Nginx" class="headerlink" title="Wordpress + Nginx"></a>Wordpress + Nginx</h4><p>使用 docker-compose 进行服务编排。</p>
+<ol>
+<li><p>docker-compose.yml</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">'3'</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line"><span class="attr">  nginx:</span></span><br><span class="line"><span class="attr">   image:</span> <span class="string">nginx</span></span><br><span class="line"><span class="attr">   restart:</span> <span class="string">always</span></span><br><span class="line"><span class="attr">   volumes:</span></span><br><span class="line"><span class="bullet">       -</span> <span class="string">/etc/nginx/conf.d/ssl:/etc/nginx/cert</span></span><br><span class="line"><span class="bullet">       -</span> <span class="string">/root/wordpress/conf.d:/etc/nginx/conf.d</span></span><br><span class="line"><span class="bullet">       -</span> <span class="string">/root/wordpress/wordpress:/var/www/html</span></span><br><span class="line"><span class="attr">   ports:</span></span><br><span class="line"><span class="bullet">     -</span> <span class="number">443</span><span class="string">:443</span></span><br><span class="line"><span class="bullet">     -</span> <span class="number">80</span><span class="string">:80</span></span><br><span class="line"><span class="attr">   depends_on:</span></span><br><span class="line"><span class="bullet">     -</span> <span class="string">wordpress</span></span><br><span class="line"><span class="attr">  wordpress:</span></span><br><span class="line"><span class="attr">   image:</span> <span class="attr">wordpress:5.1.0-php7.3-fpm</span></span><br><span class="line"><span class="attr">   volumes:</span></span><br><span class="line"><span class="bullet">     -</span> <span class="string">/root/wordpress/wordpress:/var/www/html</span></span><br><span class="line"><span class="attr">   restart:</span> <span class="string">always</span></span><br><span class="line"><span class="attr">   environment:</span></span><br><span class="line"><span class="attr">      WORDPRESS_DB_NAME:</span> <span class="string">wordpress</span></span><br><span class="line"><span class="attr">      WORDPRESS_DB_HOST:</span> <span class="number">192.168</span><span class="number">.1</span><span class="number">.153</span></span><br><span class="line"><span class="attr">      WORDPRESS_DB_PASSWORD:</span> <span class="number">123456</span></span><br><span class="line"><span class="attr">      WORDPRESS_DB_USER:</span> <span class="string">root</span></span><br></pre></td></tr></table></figure>
 </li>
-<li><p>将 <code>ESLint package</code> 的路径设置为全局路径<br><img src="https://lg-li73sb64-1256806993.cos.ap-shanghai.myqcloud.com/1550832170504.jpg" alt="pic1"></p>
-</li>
-<li><p>将 <code>Configuration file</code> 路径设置为项目 <code>eslint</code> 配置文件的路径<br><img src="https://lg-li73sb64-1256806993.cos.ap-shanghai.myqcloud.com/1550832183319.jpg" alt="pic2"></p>
-</li>
-</ol>
-<h4 id="4-VSCode-配置"><a href="#4-VSCode-配置" class="headerlink" title="4. VSCode 配置"></a>4. VSCode 配置</h4><ol>
-<li><p>下载 <code>eslint</code> 插件<br><img src="https://lg-li73sb64-1256806993.cos.ap-shanghai.myqcloud.com/1550832192212.jpg" alt="pic3"></p>
-</li>
-<li><p>修改 setting.json<br>在 setting.json 中添加如下配置：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">"eslint.alwaysShowStatus": true,</span><br><span class="line"></span><br><span class="line">// 添加 eslint 的全局路径</span><br><span class="line">"eslint.nodePath": "/Users/zhy/.nvm/versions/node/v10.14.1/lib/node_modules",</span><br><span class="line"></span><br><span class="line">// 保存时自动修复</span><br><span class="line">"eslint.autoFixOnSave": true</span><br></pre></td></tr></table></figure>
+<li><p>nginx.conf</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen      80;</span><br><span class="line">    listen [::]:80;</span><br><span class="line">    server_name domin.com;</span><br><span class="line"></span><br><span class="line">    location / &#123;</span><br><span class="line">        rewrite ^ https://$host$request_uri? permanent;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">server &#123;</span><br><span class="line">    listen 443;</span><br><span class="line">    server_name domin.com;</span><br><span class="line">    </span><br><span class="line">    root /var/www/html;</span><br><span class="line">    index index.php index.html;</span><br><span class="line"></span><br><span class="line">    ssl on;</span><br><span class="line">    ssl_certificate  cert/domin.com.crt;</span><br><span class="line">    ssl_certificate_key  cert/domin.com.key;</span><br><span class="line">    ssl_session_timeout 5m;</span><br><span class="line">    ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4;</span><br><span class="line">    ssl_protocols TLSv1 TLSv1.1 TLSv1.2;</span><br><span class="line">    ssl_prefer_server_ciphers on;</span><br><span class="line"></span><br><span class="line">    location / &#123;</span><br><span class="line">        try_files $uri $uri/ /index.php?$args;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    location ~ \.php$ &#123;</span><br><span class="line">        try_files $uri =404;</span><br><span class="line">        fastcgi_split_path_info ^(.+\.php)(/.+)$;</span><br><span class="line">        fastcgi_pass wordpress:9000;</span><br><span class="line">        fastcgi_index index.php;            </span><br><span class="line">        include fastcgi_params;</span><br><span class="line">        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;</span><br><span class="line">        fastcgi_param PATH_INFO $fastcgi_path_info;</span><br><span class="line">        client_max_body_size 20M;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<p>保存配置后重启 vscode。</p>
-<ol start="3">
-<li>点击右下角的 eslint 即可查看问题详情<br><img src="https://lg-li73sb64-1256806993.cos.ap-shanghai.myqcloud.com/1550832202167.jpg" alt="pic4"></li>
-</ol>
-<h4 id="5-格式问题自动修复"><a href="#5-格式问题自动修复" class="headerlink" title="5. 格式问题自动修复"></a>5. 格式问题自动修复</h4><ol>
-<li><p>命令行</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">// 指令格式</span><br><span class="line">eslint [options] file.js [file.js] [dir]</span><br><span class="line"></span><br><span class="line">// 修复指令</span><br><span class="line">eslint --fix file.js [file.js] [dir]</span><br><span class="line"></span><br><span class="line">// 示例</span><br><span class="line">eslint --fix src/pages/login/Login.jsx</span><br><span class="line"></span><br><span class="line">eslint --fix src/pages/login</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>WebStorm<br>右件点击文件或者文件夹<br><img src="https://lg-li73sb64-1256806993.cos.ap-shanghai.myqcloud.com/1550832210717.jpg" alt="pic5"></p>
-</li>
-<li><p>vs code<br><img src="https://lg-li73sb64-1256806993.cos.ap-shanghai.myqcloud.com/1550832219425.jpg" alt="pic6"></p>
-</li>
-</ol>
+<p>启动命令：<code>docker-compose up</code><br>重启命令：<code>docker-compose restart</code><br>停止命令：<code>docker-compose stop</code><br>删除命令：<code>docker-compose down</code></p>
+<h4 id="漏洞修复"><a href="#漏洞修复" class="headerlink" title="漏洞修复"></a>漏洞修复</h4><p>1.函数wp_http_validate_url畸形IP绕过验证SSRF漏洞</p>
+<p>解决办法：<br><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">preg_match(<span class="string">'#^(([1-9]?\d|1\d\d|25[0-5]|2[0-4]\d)\.)&#123;3&#125;([1-9]?\d|1\d\d|25[0-5]|2[0-4]\d)$#'</span>, $host)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 改为</span></span><br><span class="line">preg_match(<span class="string">'#^(([1-9]?\d|1\d\d|25[0-5]|2[0-4]\d|0+\d+)\.)&#123;3&#125;([1-9]?\d|1\d\d|25[0-5]|2[0-4]\d)$#'</span>, $host)</span><br></pre></td></tr></table></figure></p>
+<p><a href="https://blog.csdn.net/dclnet/article/details/81869078" target="_blank" rel="noopener">参考链接</a></p>
+<p>2.上传文件时遇到 <code>413 Request Entity Too Large</code></p>
+<p>解决办法：<br>修改nginx设置。<br>可以选择在http{ }中设置：client_max_body_size   20m;</p>
+<p>也可以选择在server{ }中设置：client_max_body_size   20m;</p>
+<p>还可以选择在location{ }中设置：client_max_body_size   20m;</p>
+<p>三者到区别是：http{} 中控制着所有nginx收到的请求。而报文大小限制设置在server｛｝中，则控制该server收到的请求报文大小，同理，如果配置在location中，则报文大小限制，只对匹配了location 路由规则的请求生效。</p>
 
       
     </div>
@@ -399,9 +376,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/eslint/" rel="tag"># eslint</a>
-          
-            <a href="/tags/React/" rel="tag"># React</a>
+            <a href="/tags/docker/" rel="tag"># docker</a>
           
         </div>
       
@@ -414,8 +389,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/01/09/React Native + jenkins 自动化构建/" rel="next" title="React Native + jenkins 自动化构建">
-                <i class="fa fa-chevron-left"></i> React Native + jenkins 自动化构建
+              <a href="/2019/06/02/基于-Docker-搭建-RocketMQ/" rel="next" title="基于 Docker 搭建 RocketMQ">
+                <i class="fa fa-chevron-left"></i> 基于 Docker 搭建 RocketMQ
               </a>
             
           </div>
@@ -424,8 +399,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/06/02/基于-Docker-搭建-RocketMQ/" rel="prev" title="基于 Docker 搭建 RocketMQ">
-                基于 Docker 搭建 RocketMQ <i class="fa fa-chevron-right"></i>
+              <a href="/2019/06/20/configs/sorts/" rel="prev" title="">
+                 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -559,7 +534,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-全局安装eslint"><span class="nav-number">1.</span> <span class="nav-text">1. 全局安装eslint</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-创建eslint配置文件"><span class="nav-number">2.</span> <span class="nav-text">2. 创建eslint配置文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-WebStorm-配置"><span class="nav-number">3.</span> <span class="nav-text">3. WebStorm 配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-VSCode-配置"><span class="nav-number">4.</span> <span class="nav-text">4. VSCode 配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-格式问题自动修复"><span class="nav-number">5.</span> <span class="nav-text">5. 格式问题自动修复</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#单节点搭建"><span class="nav-number">1.</span> <span class="nav-text">单节点搭建</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Wordpress-Nginx"><span class="nav-number">2.</span> <span class="nav-text">Wordpress + Nginx</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#漏洞修复"><span class="nav-number">3.</span> <span class="nav-text">漏洞修复</span></a></li></ol></div>
             
 
           </div>
@@ -722,9 +697,9 @@
     
       <script type="text/javascript">
         var disqus_config = function () {
-          this.page.url = 'http://yoursite.com/2019/02/22/在-React-项目中配置-airbnb-规则的-eslint/';
-          this.page.identifier = '2019/02/22/在-React-项目中配置-airbnb-规则的-eslint/';
-          this.page.title = '在 React 项目中配置 airbnb 规则的 eslint';
+          this.page.url = 'http://yoursite.com/2019/06/20/使用-Docker-搭建-Wordpress/';
+          this.page.identifier = '2019/06/20/使用-Docker-搭建-Wordpress/';
+          this.page.title = '基于 Docker 搭建 Wordpress';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://ginger-z.disqus.com/embed.js';
